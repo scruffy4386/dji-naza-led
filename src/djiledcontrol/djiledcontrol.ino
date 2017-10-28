@@ -111,6 +111,7 @@ void loop() {
   delay(1);
     Serial.println(LED2State,"LED2");
   delay(1);  
+ 
   //DEBUG END
   
 }

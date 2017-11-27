@@ -9,9 +9,8 @@
  Author: ElGuano on RCGroups.com
  Updated by: Scruffy4386
  Description: This version is modified to fit the arduino nano.
- It is simplified from the original to save 
- RAM and flash space, using just basic orientation lights and NAZA mimicry. 
- 
+ It is simplified from the original.
+
  Permission is hereby granted, free of charge, to any person obtaining
  a copy of this software and associated documentation files (the
  "Software"), to deal in the Software without restriction, including
@@ -37,7 +36,7 @@
 
 #include <Adafruit_NeoPixel.h>
 //#include <math.h>
-#define RSNUM 2 //How may LED are in each strip or led segment
+#define RSNUM 4 //How may LED are in each strip or led segment
 #define PNUM 8 //Number of pixels in total in your project
 #define PIN 9 // LED output Pin (An easy pin to use considering the use of pin 10 and 11 from original code)
 

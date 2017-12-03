@@ -4,7 +4,7 @@
  Author(s): Yves Gohy (diogeneyves@gmail.com)
  Thanks to: Leandre Gohy (leandre.gohy@hexeo.be)
  
- Current fork: Basic Adafruit Trinket NAZA LED Adaptation
+ Current fork: somewhat less Basic NAZA LED Adaptation
  Version: V1.3 October 27,2017
  Author: ElGuano on RCGroups.com
  Updated by: Scruffy4386
@@ -36,8 +36,9 @@
 
 #include <Adafruit_NeoPixel.h>
 //#include <math.h>
-#define RSNUM 4 //How may LED are in each strip or led segment
-#define PNUM 8 //Number of pixels in total in your project
+#define ARMS 4 // How many pixel segments (rings, pixels, strips)
+#define RSNUM 4 //How may LED are in each segment
+#define PNUM 16 //Number of pixels in total in your project
 #define PIN 9 // LED output Pin (An easy pin to use considering the use of pin 10 and 11 from original code)
 
 #define BRIGHTNESS 100 // brightness 0-255  
